@@ -1,0 +1,23 @@
+.main-footer {
+    background-color: #1e81f1;
+    padding-top: 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.img-contact{
+    padding-right: 8px;
+    vertical-align: middle;
+    
+}
+
+.a-contact{
+    
+    color: black;
+}
+.footer-about-me{
+    color: black;
+}
+
+

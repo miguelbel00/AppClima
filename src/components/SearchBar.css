@@ -1,0 +1,23 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.button {
+    width: 90px;
+
+}
+.button:hover {
+    border-radius: 5px;
+    background-color: rgba(164, 243, 177, 0.719);
+}
+.entrada {
+    margin-right: 15px;
+    width: 150px;
+    border-radius: 5px;
+        
+}
+
