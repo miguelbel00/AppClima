@@ -21,8 +21,8 @@ function App() {
       .then((recurso) => {
         if(recurso.main !== undefined){
           const ciudad = {
-            min: Math.round(recurso.main.temp_min),
-            max: Math.round(recurso.main.temp_max),
+            min: Math.round(recurso.main.temp_min-273.15),
+            max: Math.round(recurso.main.temp_max-273.15),
             img: recurso.weather[0].icon,
             id: recurso.id,
             wind: recurso.wind.speed,

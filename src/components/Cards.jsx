@@ -6,7 +6,6 @@ import Card from './Card.jsx';
 export default function Cards({cities, onClose}) {
   return (
     <div className='cards'>
-      {console.log("cards")}
       {cities.map(c => <Card
           key={c.id}
           id={c.id}

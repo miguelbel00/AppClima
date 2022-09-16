@@ -1,10 +1,11 @@
 import React from "react";
+import './Ciudad.css';
 
 
 export default function Ciudad({city}) {
     return (
-        <div className="ciudad">
-                <div className="container">
+        <div className="ciudad-main">
+                <div className="container-ciudad">
                     <h2>{city.name}</h2>
                     <div className="info">
                         <div>Temperatura: {city.temp} ºC</div>

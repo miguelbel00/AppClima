@@ -16,7 +16,7 @@ function Footer() {
             </ul>
           </div>
           <div className="col">
-            <h4>Contact</h4>
+            <h4 >Contact</h4>
             <div>
               <a className="a-contact" href="https://github.com/miguelbel00">
                 <img className="img-contact" src={github} alt="github"></img>
