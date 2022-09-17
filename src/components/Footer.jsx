@@ -5,6 +5,16 @@ import github from "../img/github.png";
 import gmail from "../img/gmail(1).png";
 
 function Footer() {
+
+
+
+  const clickGmail = (e)=> {
+    e.preventDefault()
+    navigator.clipboard.writeText("miguelaeltranp@gmail.com")
+    alert("Gmail Copiado")
+  }
+
+
   return (
     <footer className="main-footer">
       <div className="container">
@@ -23,7 +33,7 @@ function Footer() {
                 Github
               </a>
               &nbsp;&nbsp;&nbsp;
-              <a className="a-contact" href="www.google.com">
+              <a className="a-contact" href="/" onClick={clickGmail}>
                 <img className="img-contact" src={gmail} alt="github"></img>
                 Gmail
               </a>
