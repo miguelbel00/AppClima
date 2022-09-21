@@ -10,7 +10,7 @@ function Footer() {
 
   const clickGmail = (e)=> {
     e.preventDefault()
-    navigator.clipboard.writeText("miguelaeltranp@gmail.com")
+    navigator.clipboard.writeText("miguelabeltranp@gmail.com")
     alert("Gmail Copiado")
   }
 
