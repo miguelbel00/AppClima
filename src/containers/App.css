@@ -14,7 +14,8 @@
 
 body {
 
-  background-image: url("../img/12661-cielo.jpg");
-  background-size:cover
+  background-image: url("../img/sky2.jpg");
+  background-size:cover;
+  background-attachment: fixed;
 /*   background-color: rgba(76, 181, 252, 0.966); */
 }

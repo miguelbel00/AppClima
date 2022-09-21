@@ -7,7 +7,7 @@ export default function Ciudad({city}) {
         <div className="ciudad-main">
                 <div className="container-ciudad">
                     <h2>{city.name}</h2>
-                    <div className="info">
+                    <div >
                         <div>Temperatura: {city.temp} ºC</div>
                         <div>Clima: {city.weather}</div>
                         <div>Viento: {city.wind} km/h</div>

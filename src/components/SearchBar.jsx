@@ -1,14 +1,22 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 import './SearchBar.css'
 
 export default function SearchBar({onSearch}) {
   const [city, setCity] = useState("");
+
+  let history = useHistory()
+
   return (
     <div className="header">
     <form onSubmit={(e) => {
       e.preventDefault();
       onSearch(city);
-    }}>
+      setTimeout(() => {
+        history.push("/")
+      }, 2500);
+
+}}>
       <input 
         className="entrada"
         type="text"
